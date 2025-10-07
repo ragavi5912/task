@@ -1,5 +1,5 @@
 import React from "react";
-import "./Content.css";
+import "./content.css";
 import laptopKids from "../../assets/content.png";
 
 const Content = () => {
