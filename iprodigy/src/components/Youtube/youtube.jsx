@@ -1,5 +1,5 @@
 import React from "react";
-import "./Youtube.css";
+import "./youtube.css";
 import bgImage from "../../assets/four.jpg"; 
 
 const Youtube = () => {
