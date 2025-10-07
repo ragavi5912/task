@@ -1,0 +1,176 @@
+/* Footer.css */
+.footer {
+  width: 100%;
+}
+
+.footer-full-width {
+  background-color: #004c66; /* dark blue */
+  color: white;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-subtext {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+}
+
+.footer-box {
+  text-align: left;
+  min-width: 200px;
+}
+
+.footer-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.footer-box p {
+  font-size: 15px;
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.footer-line {
+  width: 60px;
+  height: 4px;
+  background-color: #00a6e2;
+  margin-bottom: 5px;
+}
+
+.footer-socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-socials a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #00a6e2;
+}
+
+/* Newsletter Styles */
+.newsletter {
+  flex: 0 0 400px;
+  text-align: left;
+}
+
+.newsletter-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.newsletter-subtext {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-row:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row:last-child input {
+  flex: 2;
+}
+
+.form-row button {
+  flex: 1;
+  background-color: #00a6e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-row button:hover {
+  background-color: #0088b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .footer-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .newsletter {
+    flex: none;
+    width: 100%;
+  }
+  
+  .form-row {
+    flex-direction: column;
+  }
+}
