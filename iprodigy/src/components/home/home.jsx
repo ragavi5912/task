@@ -1,6 +1,6 @@
 import React from "react";
 import heroBg from "../../assets/bgimage1.jpg";
-import "./Home.css";
+import "./home.css";
 import one from "../../assets/one.jpg";
 import two from "../../assets/two.jpg";
 import three from "../../assets/three.jpg";

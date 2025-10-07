@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 
 import kidImg from "../../assets/kid1.png";
 import laptopKids from "../../assets/kid2.png";

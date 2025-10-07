@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Why.css";
+import "./why.css";
 import whyUsImage from "../../assets/whyus.png";
 
 export default function Why() {
