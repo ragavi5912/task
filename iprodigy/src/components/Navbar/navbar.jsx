@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './navbar.css';
+import logo from "../../assets/logo.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,11 +30,7 @@ export default function Navbar() {
         
         {/* LOGO */}
         <div className="logo">
-          <img 
-            src="/src/assets/logo.png" 
-            alt="Logo" 
-            className="logo-img"
-          />
+          <img src={logo} alt="Logo" className="logo-img" />
         </div>
 
         {/* MENU (Desktop) */}
